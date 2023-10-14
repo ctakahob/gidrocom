@@ -3,6 +3,3 @@ meta:
   toolchain:
     name: browser
     version: 18
-run:
-  command: npm start
-  containerPort: 3000
