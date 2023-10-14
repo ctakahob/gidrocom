@@ -3,5 +3,8 @@ meta:
   toolchain:
     name: browser
     version: 18
+build:
+  additionalCommands: yarn build
 run:
+  command: yarn start
   containerPort: 3000
