@@ -9,6 +9,7 @@ const Footer = () => {
       position: 'fixed',
       bottom: 0,
       width: '100%',
+      zIndex: 5,
     }}>
       <Toolbar>
         <Typography variant="body2" sx={{color: 'white'}}>

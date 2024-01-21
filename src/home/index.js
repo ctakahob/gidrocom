@@ -31,6 +31,12 @@ const HomePage = () => {
       <Paper variant={'outlined'} sx={{borderRadius: 4, overflow: 'hidden', mt: 2}}>
         <OurProcess/>
       </Paper>
+      {/*<Paper variant={'outlined'} sx={{borderRadius: 4, overflow: 'hidden', mt: 2}}>*/}
+      {/*  <Typography textAlign={'center'} variant={'h3'}>*/}
+      {/*    Примеры работ*/}
+      {/*  </Typography>*/}
+      {/*  <SliderBottom/>*/}
+      {/*</Paper>*/}
       <Paper variant={'outlined'} sx={{borderRadius: 4, overflow: 'hidden', mt: 2}}>
         <ContactUs/>
       </Paper>
