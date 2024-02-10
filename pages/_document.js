@@ -11,6 +11,8 @@ export default function Document() {
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap"
         />
+        <meta name="yandex-verification" content="38c6c8d819fb9ecd"/>
+        <meta name="google-site-verification" content="EtiBsULaiaO_H6jrrscUYILBMCTxvotDBX52paJB6Kw"/>
       </Head>
       <body>
       <Main/>

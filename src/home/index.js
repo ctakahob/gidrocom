@@ -8,6 +8,8 @@ import HydroIsolationGrid from "@/home/tableWithIcons";
 import OurProcess from "@/home/ourProcess";
 import ContactUs from "@/home/callUs";
 import MainDescription from "@/home/mainDescription";
+import Contacts from "@/contacts";
+import WaterproofingBlog from "@/waterproofing";
 
 const HomePage = () => {
   const theme = useTheme();
@@ -28,6 +30,7 @@ const HomePage = () => {
         <MainDescription/>
       </Paper>
       <HydroIsolationGrid/>
+      <WaterproofingBlog/>
       <Paper variant={'outlined'} sx={{borderRadius: 4, overflow: 'hidden', mt: 2}}>
         <OurProcess/>
       </Paper>
@@ -40,6 +43,7 @@ const HomePage = () => {
       <Paper variant={'outlined'} sx={{borderRadius: 4, overflow: 'hidden', mt: 2}}>
         <ContactUs/>
       </Paper>
+      <Contacts/>
     </Container>
   );
 };
